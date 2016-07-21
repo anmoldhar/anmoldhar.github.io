@@ -1,1 +1,262 @@
-Hello world
+<head>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='css/index.css' rel='stylesheet' type='text/css'>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <!-- responsive navbar with collapse -->
+
+  <nav class="navbar navbar-default navbar-fixed-top topnav navbar-custom affix-top" role="navigation">
+    <div class="container topnav">
+      <div class="navbar-header page-scroll">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar" type="button">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand topnav menubar" href="#">Anmol Dhar</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="menubar" href="#home">Home</a></li>
+          <li><a class="menubar" href="#portfolio">Portfolio</a></li>
+          <li><a class="menubar" href="#about">About</a></li>
+          <li><a class="menubar" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <article id="home">
+    <div class='container'>
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="https://dl.dropboxusercontent.com/s/f5pblyxnvgihwpe/Photo.jpg?raw=1" alt="myImage.jpg" class="img-circle img-responsive center-block">
+          <section class='begin'>
+            <p class='name'>ANMOL DHAR</p>
+            <hr class="star-light">
+            <p class='skills'>Coder&nbsp;&nbsp;-&nbsp;&nbsp;Web Developer&nbsp;&nbsp;-&nbsp;&nbsp;Gamer</p>
+          </section>
+
+          <section>
+            <ul class='list-inline list-social'>
+              <li>
+                <a target="_blank" href="https://github.com/skull-king" class='btn-social btn-outline'>
+                  <i class='fa fa-github'></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="btn-social btn-outline" href="https://in.linkedin.com/in/anmoldhar">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.freecodecamp.com/skull-king" class='btn-social btn-outline'><i class='fa fa-fire'></i></a>
+              </li>
+              <li>
+                <a target = "_blank" href="http://www.spoj.com/users/skull_king/" class='btn-social btn-outline'><i class='fa fa-code'></i></a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </article>
+  </div>
+  <article id='portfolio'>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Professional Portfolio</h2>
+          <hr class="star-primary">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="http://phoneexperts.com/images/content/mitel-logo.jpg" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="http://media.fundacity.com/uploads/fd2_nnoi87sd1nfauc2c9r15f00ha2_1423479348.jpg" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Problem Solving Skills</h2>
+          <hr class="star-primary">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a href="http://www.spoj.com/users/skull_king/" target = '_blank' class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="https://pbs.twimg.com/profile_images/568733328090480640/B1rm7i-y_400x400.jpeg" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+</article>
+
+
+    <!-- About Section -->
+    <article class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I'm a self taught full stack web developer based in Bangalore, India. I spent last three months working in edureka, an edutech startup, as part of backend development team where we work in PHP, JS and CakePHP platform mainly. I undergraduated
+            from NIT-Allahabad with major in Information Technology in 2014 </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>after that I was part of a research and development team in a Mitel Mobile Division, which provides 4G solution to its customers. My passion is to use technology based solutions,to
+            help solve real world challenges.</p>
+                </div>
+            </div>
+        </div>
+</article>
+
+
+
+
+
+
+  <article id='contact'>
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Connect with me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+      <p>If you wish to contact me or say hello! or give me feedback you can reach me at <u>adanmoldhar@gmail.com</u></p>
+  </article>
+
+
+<!-- portfolio modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" style="font-size:50px;">&times;</span><span class="sr-only">Close</span></button>
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 class = "text-center">Mitel Networks</h2>
+                            <hr class="star-primary">
+                          <p><u>HSS - HOME SUBSCRIBER SERVER (Mitel Mobile Division)</u>
+HSS is a core IMS network component and interacts with various nodes on the
+network via different diameter interfaces. I have been primarily involved in
+development on s6a diameter interfaces which is used for network components to
+interact with the HSS.
+My role has been writing C++ server side codes, doing unit testing before handing
+over to QA team, debugging performance issues and taking ownership of different
+modules.
+                            <br><u>MSTORE – MESSAGING STORE (Mitel Mobile Division)</u>
+mStore is single point access and management of user’s voicemails, videomails,
+CPM/MMS/SMS and other communication data. It uses IMAP interface for multi-device
+synchronization and REST API’s for web access.
+I have been primarily involved in development of access and management of user’s
+voicemails/Greeting messages. It is currently being used as part of phone_2.0 T-
+Mobile application, which uses IMAP interface to download/view voicemails</p>
+                            <ul class="list-inline item-details">
+                                <li>Technologies Used:
+                                    <strong>C++ with STL, C, Shell Script, MySql, CVS, GDB, Seagull, Wireshark 
+                                    </strong>
+                                </li>
+                                <li>Duration:
+                                    <strong>1 year 8 months
+                                    </strong>
+                                </li>
+                                <li>Domain:
+                                    <strong>Telecommunication
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" style="font-size:50px;">&times;</span><span class="sr-only">Close</span></button>
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 class = 'text-center'>Edureka!</h2>
+                            <hr class="star-primary">
+                            <p>In Edureka we used CakePHP platform for robust backend development. Despite
+having no prior experience in CakePHP I was able to pick up platform quickly and was
+immediately allocated development work. I was responsible for development and
+designing of lead/potential customers for various courses edureka offers. Apart from
+this I was involved in backend development of various page revamps designed by
+front-end engineers and using cron shell to generate various reports and mandrill api
+for sending those reports as email.</p>
+                            <ul class="list-inline item-details">
+                                <li>Technologies Used:
+                                    <strong>HTML, CSS, JavaScript, JQuery, PHP, CakePHP, XDebug, GIT, NetBeans
+                                    </strong>
+                                </li>
+                                <li>Duration:
+                                    <strong>3 months
+                                    </strong>
+                                </li>
+                                <li>Domain:
+                                    <strong>Education Startup
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+</body>
