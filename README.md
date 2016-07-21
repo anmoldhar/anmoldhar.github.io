@@ -1,2 +1,2 @@
 # anmoldhar.github.io
-personal portfolio page
+Personal Portfolio Page, needs to be updated frequently
