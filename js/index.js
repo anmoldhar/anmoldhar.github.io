@@ -1,5 +1,4 @@
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-
+// jQuery for page scrolling feature - requires jQuery Easing plugin
     $('#navbar  a').bind('click', function(event) {
       event.preventDefault();
         var $anchor = $(this);
@@ -15,7 +14,7 @@
         offset: 51
 });
 
-    $('nav').affix({
+ $('nav').affix({
         offset: {
             top: 100
         }
